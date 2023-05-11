@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:simop/services/auth.dart';
-import 'package:simop/services/users.dart';
-import 'package:simop/screen/auth/login.dart';
-import 'package:simop/screen/masyarakat/ubah_profil.dart';
-import 'package:simop/theme/theme_notifier.dart';
+import 'package:pa_simop/services/auth.dart';
+import 'package:pa_simop/services/users.dart';
+import 'package:pa_simop/screen/auth/login.dart';
+import 'package:pa_simop/screen/masyarakat/ubah_profil.dart';
+import 'package:pa_simop/theme/theme_notifier.dart';
 
 class ProfilMasyarakatWidget extends StatefulWidget {
   const ProfilMasyarakatWidget(

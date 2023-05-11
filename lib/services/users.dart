@@ -4,8 +4,8 @@ import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simop/model/users.dart';
-import 'package:simop/services/auth.dart';
+import 'package:pa_simop/model/users.dart';
+import 'package:pa_simop/services/auth.dart';
 
 class Users {
   static final _db = FirebaseFirestore.instance;

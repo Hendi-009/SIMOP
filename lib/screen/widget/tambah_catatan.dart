@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simop/services/users_nop.dart';
-
-import '../masyarakat/nop_disimpan.dart';
+import 'package:pa_simop/services/users_nop.dart';
+import 'package:pa_simop/screen/masyarakat/nop_disimpan.dart';
 
 class TambahCatatanWidget extends StatefulWidget {
   const TambahCatatanWidget({Key? key, required this.nop}) : super(key: key);

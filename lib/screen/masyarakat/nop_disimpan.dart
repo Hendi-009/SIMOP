@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:simop/model/users_nop.dart';
-import 'package:simop/screen/pbbp2/detail_pbbp2.dart';
+import 'package:pa_simop/model/users_nop.dart';
+import 'package:pa_simop/screen/pbbp2/detail_pbbp2.dart';
 
-import 'package:simop/screen/widget/ubah_catatan.dart';
-import 'package:simop/services/nop.dart';
-import 'package:simop/services/users_nop.dart';
+import 'package:pa_simop/screen/widget/ubah_catatan.dart';
+import 'package:pa_simop/services/nop.dart';
+import 'package:pa_simop/services/users_nop.dart';
 
 class NOPDisimpanWidget extends StatefulWidget {
   const NOPDisimpanWidget({Key? key}) : super(key: key);

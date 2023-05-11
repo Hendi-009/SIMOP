@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:simop/screen/pbbp2/detail_pbbp2.dart';
+import 'package:pa_simop/screen/pbbp2/detail_pbbp2.dart';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:simop/services/nop.dart';
+import 'package:pa_simop/services/nop.dart';
 
 class PajakPBBP2Widget extends StatefulWidget {
   const PajakPBBP2Widget({Key? key}) : super(key: key);

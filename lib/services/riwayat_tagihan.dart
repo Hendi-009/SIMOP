@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simop/model/riwayat_tagihan.dart';
-import 'package:simop/services/auth.dart';
+import 'package:pa_simop/model/riwayat_tagihan.dart';
+import 'package:pa_simop/services/auth.dart';
 
 class RiwayatTagihan {
   static final _db = FirebaseFirestore.instance;

@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
-import 'package:simop/screen/auth/login.dart';
-import 'package:simop/screen/masyarakat/nop_disimpan.dart';
-import 'package:simop/services/auth.dart';
-import 'package:simop/services/users.dart';
+import 'package:pa_simop/screen/auth/login.dart';
+import 'package:pa_simop/screen/masyarakat/nop_disimpan.dart';
+import 'package:pa_simop/services/auth.dart';
+import 'package:pa_simop/services/users.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 import 'profil_masyarakat.dart';
-import 'package:simop/screen/pbbp2/pbbp2.dart';
-import 'package:simop/screen/pembayaran/riwayat_tagihan.dart';
+import 'package:pa_simop/screen/pbbp2/pbbp2.dart';
+import 'package:pa_simop/screen/pembayaran/riwayat_tagihan.dart';
 
 class UtamaMasyarakatWidget extends StatelessWidget {
   UtamaMasyarakatWidget(

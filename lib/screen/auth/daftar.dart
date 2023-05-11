@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:simop/services/auth.dart';
-import 'package:simop/services/users.dart';
+import 'package:pa_simop/services/auth.dart';
+import 'package:pa_simop/services/users.dart';
 
 class DaftarWidget extends StatefulWidget {
   const DaftarWidget({Key? key}) : super(key: key);

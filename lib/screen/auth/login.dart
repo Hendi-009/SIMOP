@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simop/services/auth.dart';
-import 'package:simop/services/users.dart';
+import 'package:pa_simop/services/auth.dart';
+import 'package:pa_simop/services/users.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
-import 'package:simop/screen/auth/daftar.dart';
-import 'package:simop/screen/masyarakat/utama_masyarakat.dart';
+import 'package:pa_simop/screen/auth/daftar.dart';
+import 'package:pa_simop/screen/masyarakat/utama_masyarakat.dart';
 
 class LoginWidget extends StatefulWidget {
   const LoginWidget({Key? key}) : super(key: key);

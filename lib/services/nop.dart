@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:simop/model/nop.dart';
+import 'package:pa_simop/model/nop.dart';
 
 class NOP {
   static final _db = FirebaseFirestore.instance;

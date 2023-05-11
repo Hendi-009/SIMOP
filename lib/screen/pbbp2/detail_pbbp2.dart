@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:simop/model/tagihan.dart';
+import 'package:pa_simop/model/tagihan.dart';
 
-import 'package:simop/screen/pembayaran/tagihan_pajak.dart';
-import 'package:simop/screen/widget/tambah_catatan.dart';
-import 'package:simop/services/tagihan.dart';
-import 'package:simop/services/users_nop.dart';
+import 'package:pa_simop/screen/pembayaran/tagihan_pajak.dart';
+import 'package:pa_simop/screen/widget/tambah_catatan.dart';
+import 'package:pa_simop/services/tagihan.dart';
+import 'package:pa_simop/services/users_nop.dart';
 
 class DetailPBBP2Widget extends StatefulWidget {
   const DetailPBBP2Widget(

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
-import 'package:simop/screen/masyarakat/utama_masyarakat.dart';
-import 'package:simop/services/tagihan.dart';
-import 'package:simop/services/users.dart';
+import 'package:pa_simop/screen/masyarakat/utama_masyarakat.dart';
+import 'package:pa_simop/services/tagihan.dart';
+import 'package:pa_simop/services/users.dart';
 
 class PembayaranTagihanWidget extends StatefulWidget {
   const PembayaranTagihanWidget({Key? key, required this.id}) : super(key: key);

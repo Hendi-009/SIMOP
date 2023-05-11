@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:get/get.dart';
-import 'package:simop/services/riwayat_tagihan.dart';
-import 'package:simop/services/tagihan.dart';
+import 'package:pa_simop/services/riwayat_tagihan.dart';
+import 'package:pa_simop/services/tagihan.dart';
 
 import 'pembayaran_tagihan.dart';
 

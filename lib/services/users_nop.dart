@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simop/model/users_nop.dart';
-import 'package:simop/screen/masyarakat/nop_disimpan.dart';
-import 'package:simop/services/auth.dart';
+import 'package:pa_simop/model/users_nop.dart';
+import 'package:pa_simop/screen/masyarakat/nop_disimpan.dart';
+import 'package:pa_simop/services/auth.dart';
 
 class UsersNOP {
   static final _db = FirebaseFirestore.instance;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:simop/services/users_nop.dart';
+import 'package:pa_simop/services/users_nop.dart';
 
 class UbahCatatanWidget extends StatefulWidget {
   final String nop, catatan;

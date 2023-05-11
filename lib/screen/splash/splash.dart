@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simop/screen/auth/login.dart';
-import 'package:simop/screen/masyarakat/utama_masyarakat.dart';
-import 'package:simop/services/auth.dart';
-import 'package:simop/services/users.dart';
+import 'package:pa_simop/screen/auth/login.dart';
+import 'package:pa_simop/screen/masyarakat/utama_masyarakat.dart';
+import 'package:pa_simop/services/auth.dart';
+import 'package:pa_simop/services/users.dart';
 
 class SplashScreenWidget extends StatefulWidget {
   const SplashScreenWidget({Key? key}) : super(key: key);

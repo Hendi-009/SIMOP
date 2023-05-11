@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:simop/services/users.dart';
+import 'package:pa_simop/services/users.dart';
 
 class UbahProfilWidget extends StatefulWidget {
   const UbahProfilWidget({Key? key, required this.name, required this.nohp}) : super(key: key);
