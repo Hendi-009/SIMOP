@@ -5,6 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pa_simop/model/users.dart';
+import 'package:pa_simop/screen/masyarakat/utama_masyarakat.dart';
 import 'package:pa_simop/services/auth.dart';
 
 class Users {
@@ -102,11 +103,15 @@ class Users {
         middleTextStyle: TextStyle(
           fontFamily: "'Poppins",
         ),
-        onConfirm: () {
+        onConfirm: () async {
+          var name = await Users.getNameUser();
+          var email = await Users.getEmailUser();
+          var nohp = await Users.getNohpUser();
           Get.back();
           Get.back();
           Get.back();
           Get.back();
+          Get.off(UtamaMasyarakatWidget(name: name, email: email, nohp: nohp,));
         },
         radius: 16,
       );
@@ -129,6 +134,14 @@ class Users {
       );
       return false;
     }
+  }
+
+  static Stream<String> getLiveNameUser() async* {
+    final email = Auth.getCurrentEmail();
+    final snapshot = await _db.collection("users").where("email", isEqualTo: email).get();
+    final userData = snapshot.docs.map((e) => UsersModel.fromSnapshot(e)).single;
+    final nameUser = userData.name;
+    yield nameUser;
   }
 
   static Future<String> getNameUser() async {

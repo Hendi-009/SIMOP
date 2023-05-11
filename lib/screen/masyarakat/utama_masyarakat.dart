@@ -11,7 +11,7 @@ import 'profil_masyarakat.dart';
 import 'package:pa_simop/screen/pbbp2/pbbp2.dart';
 import 'package:pa_simop/screen/pembayaran/riwayat_tagihan.dart';
 
-class UtamaMasyarakatWidget extends StatelessWidget {
+class UtamaMasyarakatWidget extends StatefulWidget {
   UtamaMasyarakatWidget(
       {Key? key,
       required this.name,
@@ -21,7 +21,13 @@ class UtamaMasyarakatWidget extends StatelessWidget {
 
   final String name, email, nohp;
 
+  @override
+  State<UtamaMasyarakatWidget> createState() => _UtamaMasyarakatWidgetState();
+}
+
+class _UtamaMasyarakatWidgetState extends State<UtamaMasyarakatWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
+
   final _unfocusNode = FocusNode();
 
   @override
@@ -77,7 +83,10 @@ class UtamaMasyarakatWidget extends StatelessWidget {
                   color: Color(0xFF65A25E),
                   size: 24,
                 ),
-                onPressed: () {
+                onPressed: () async {
+                  var name = await Users.getNameUser();
+                  var email = await Users.getEmailUser();
+                  var nohp = await Users.getNohpUser();
                   Get.to(ProfilMasyarakatWidget(
                       name: name,
                       email: email,
