@@ -16,7 +16,7 @@ class ThemeNotifier extends ChangeNotifier {
           fontSize: 16, fontWeight: FontWeight.w500, color: Color(0xFF65A25E)),
       titleSmall: TextStyle(
           fontSize: 14, fontWeight: FontWeight.w400, color: Color(0xFF65A25E)),
-      headlineLarge: TextStyle(
+      headlineSmall: TextStyle(
           fontSize: 14, fontWeight: FontWeight.w500, color: Color(0xFF111111)),
       bodyLarge: TextStyle(
           fontSize: 14, fontWeight: FontWeight.w400, color: Color(0xFF111111)),

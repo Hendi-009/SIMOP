@@ -89,7 +89,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                   ),
                   Text('Sistem Informasi Manajemen \nObjek Pajak',
                       textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.headlineLarge),
+                      style: Theme.of(context).textTheme.headlineSmall),
 
                   // isian nama
                   Padding(
