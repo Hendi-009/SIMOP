@@ -30,7 +30,29 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  auto_size_text: 3.0.0
+  cached_network_image: 3.2.1
+  dropdown_button2: 2.0.0
+  flutter_animate: 1.0.0
+  flutter_cache_manager: 3.3.0
+  font_awesome_flutter: 10.1.0
+  from_css_color: 2.0.0
+  google_fonts: 3.0.1
+  intl: 0.17.0
+  json_path: 0.4.1
+  page_transition: 2.0.4
+  provider: ^6.0.0
+  shared_preferences: 2.0.15
+  simple_gradient_text: 1.2.3
+  sqflite: 2.2.0+2
+  timeago: 3.2.2
+  url_launcher: 6.1.5
+  firebase_core: ^2.5.0
+  firebase_auth: ^4.2.6
+  cloud_firestore: ^4.2.0
+  get: ^4.6.3
+  image_picker: ^0.8.5+3
+  firebase_storage: ^11.0.14
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -57,6 +79,11 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+  - assets/image/profil.jpeg
+  - assets/image/KotaSamarinda.png
+  - assets/image/HeaderLogo.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
