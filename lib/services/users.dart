@@ -136,13 +136,13 @@ class Users {
     }
   }
 
-  static Stream<String> getLiveNameUser() async* {
-    final email = Auth.getCurrentEmail();
-    final snapshot = await _db.collection("users").where("email", isEqualTo: email).get();
-    final userData = snapshot.docs.map((e) => UsersModel.fromSnapshot(e)).single;
-    final nameUser = userData.name;
-    yield nameUser;
-  }
+  // static Stream<String> getLiveNameUser() async* {
+  //   final email = Auth.getCurrentEmail();
+  //   final snapshot = await _db.collection("users").where("email", isEqualTo: email).get();
+  //   final userData = snapshot.docs.map((e) => UsersModel.fromSnapshot(e)).single;
+  //   final nameUser = userData.name;
+  //   yield nameUser;
+  // }
 
   static Future<String> getNameUser() async {
     final email = Auth.getCurrentEmail();
